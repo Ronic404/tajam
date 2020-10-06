@@ -1,0 +1,102 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-Logo {
+  background-image: url(sprite.png);
+  background-position: -99px 0px;
+  width: 44px;
+  height: 50px;
+}
+.icon-brush {
+  background-image: url(sprite.png);
+  background-position: 0px -96px;
+  width: 50px;
+  height: 42px;
+}
+.icon-diagram {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 50px;
+  height: 50px;
+}
+.icon-display {
+  background-image: url(sprite.png);
+  background-position: -50px 0px;
+  width: 49px;
+  height: 50px;
+}
+.icon-dribbble {
+  background-image: url(sprite.png);
+  background-position: -184px -50px;
+  width: 16px;
+  height: 16px;
+}
+.icon-facebook {
+  background-image: url(sprite.png);
+  background-position: -200px -50px;
+  width: 7px;
+  height: 15px;
+}
+.icon-game {
+  background-image: url(sprite.png);
+  background-position: -143px 0px;
+  width: 41px;
+  height: 50px;
+}
+.icon-google {
+  background-image: url(sprite.png);
+  background-position: -184px -81px;
+  width: 15px;
+  height: 14px;
+}
+.icon-heart {
+  background-image: url(sprite.png);
+  background-position: 0px -50px;
+  width: 50px;
+  height: 46px;
+}
+.icon-instagram {
+  background-image: url(sprite.png);
+  background-position: -184px -66px;
+  width: 15px;
+  height: 15px;
+}
+.icon-phone {
+  background-image: url(sprite.png);
+  background-position: -184px 0px;
+  width: 28px;
+  height: 50px;
+}
+.icon-play {
+  background-image: url(sprite.png);
+  background-position: -143px -50px;
+  width: 37px;
+  height: 45px;
+}
+.icon-twitter {
+  background-image: url(sprite.png);
+  background-position: -184px -106px;
+  width: 14px;
+  height: 11px;
+}
+.icon-youtube {
+  background-image: url(sprite.png);
+  background-position: -184px -95px;
+  width: 17px;
+  height: 11px;
+}
