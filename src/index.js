@@ -1,1 +1,1 @@
-console.log('asdfasfgsfg');
+import './assets/sass/index.scss';
