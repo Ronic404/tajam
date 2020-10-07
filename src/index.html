@@ -5,40 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tajam</title>
   <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
-  <!-- font-family: 'Hammersmith One', sans-serif;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Roboto', sans-serif; -->
 </head>
 <body>
-  <header>
-    <div>
-      <img src="" alt="">
-      <h1>tajam</h1>
-    </div>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Expertise</li>
-        <li>Teams</li>
-        <li>Works</li>
-        <li>People say</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-  </header>
   <main>
-    <section>
-      <div>
-        <h2>We Are Awesome Creative Agency</h2>
-        <span></span>
-        <p>
-          This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
-          Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis 
-          sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi 
-          accumsan ipsum velit.
-        </p>
-        <Button>Learn more</Button>
+    <section class="home-page">
+      <div class="container">
+        <header class="header">
+          <div class="row justify-content-between">
+            <div class="logo row">
+              <div class="logo__icon"></div>
+              <h1 class="logo__name">tajam</h1>
+            </div>
+            <nav class="header__menu row align-items-center">
+              <ul class="navigation row">
+                <li class="navigation__item">Home</li>
+                <li class="navigation__item">About</li>
+                <li class="navigation__item">Expertise</li>
+                <li class="navigation__item">Teams</li>
+                <li class="navigation__item">Works</li>
+                <li class="navigation__item">People say</li>
+                <li class="navigation__item">Contact</li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="home-page__description row justify-content-center">
+          <h2 class="home-page__description-title col">We Are Awesome Creative Agency</h2>
+          <div class="w-100"></div>
+          <span class="home-page__description-line col-1"></span>
+          <div class="w-100"></div>
+          <p class="home-page__description-text col-10">
+            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
+            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis 
+            sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi 
+            accumsan ipsum velit.
+          </p>
+          <div class="w-100"></div>
+          <Button class="home-page__description-button button">Learn more</Button>
+        </div>
       </div>
     </section>
     <section>
@@ -60,7 +64,7 @@
         <button>Learn more</button>
       </div>
     </section>
-    <section>
+    <section class="video-page">
       <img src="" alt="">
       <p>Watch our story</p>
     </section>
@@ -103,7 +107,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="team-page">
       <div>
         <h3>Meet our amazine team</h3>
         <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -123,7 +127,7 @@
       <div>Pictures</div>
       <button>Load more</button>
     </section>
-    <section>
+    <section class="feedback-page">
       <span></span>
       <p>
         This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
@@ -149,7 +153,7 @@
       </form>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
     <div>
       <div>
         <div>

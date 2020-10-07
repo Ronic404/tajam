@@ -1,0 +1,19 @@
+.navigation {
+  &__item {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 25px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

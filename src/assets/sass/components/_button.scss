@@ -1,0 +1,14 @@
+.button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid $main-color;
+  color: $main-color;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 10px 15px;
+
+  &:focus {
+    outline: none;
+  }
+}

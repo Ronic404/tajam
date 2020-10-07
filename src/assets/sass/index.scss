@@ -1,3 +1,25 @@
-p {
-  color: red
+@import './abstracts/variables';
+
+@import './components/logo';
+@import './components/navigation';
+@import './components/button';
+
+@import './layouts/header';
+@import './layouts/home-page';
+@import './layouts/video-page';
+@import './layouts/team-page';
+@import './layouts/feedback-page';
+@import './layouts/footer';
+
+html {
+  font-size: 10px;
 }
+
+ol, ul {
+  margin: 0;
+  list-style: none;
+}
+
+  // font-family: 'Hammersmith One', sans-serif;
+  // font-family: 'Playfair Display', serif;
+  // font-family: 'Roboto', sans-serif;
