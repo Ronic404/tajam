@@ -1,6 +1,7 @@
 .video-page {
   position: relative;
   background-image: url('../img/bg/bg-2.jpg');
+  padding: 200px 0;
 
   &::before {
     content: '';
@@ -11,5 +12,35 @@
     right: 0;
     background-color: $overlay-color;
     opacity: 0.85;
+  }
+
+  &__content {
+    position: relative;
+
+    &-play {
+      border: 3px solid #fff;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin-bottom: 30px;
+      
+      &-icon {
+        position: absolute;
+        top: 25px;
+        left: 32px;
+        background-image: url('../img/icons.png');
+        background-position: -143px -50px;
+        width: 37px;
+        height: 45px;
+      }
+    }
+  
+    &-text {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      font-size: 1.6rem;
+      color: #fff;
+    }
   }
 }
