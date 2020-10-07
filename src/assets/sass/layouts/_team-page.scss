@@ -1,6 +1,7 @@
 .team-page {
   position: relative;
-  background-image: url('../img/bg/bg-3.jpg');
+  background: url('../img/bg/bg-3.jpg') center center;
+  background-size: cover;
 
   &::before {
     content: '';

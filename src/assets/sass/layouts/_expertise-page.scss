@@ -1,0 +1,112 @@
+.expertise-page {
+  padding: 70px 0;
+
+  &__top {
+    margin-bottom: 45px;
+
+    &-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+    &-subtitle {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      opacity: 0.75;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    
+    &-line {
+      display: inline-block;
+      height: 1px;
+      background-color: #000;
+      opacity: 0.75;
+    }
+  }
+
+  &__main {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border: 1px solid #fff;
+      z-index: 1;
+    }
+
+    &-item {
+      text-align: center;
+      border: 1px solid rgba($color: #000000, $alpha: 0.2);
+
+      &-image {
+        margin: 35px auto 30px;
+
+        &-1 {
+          background-image: url("../img/icons.png");
+          background-position: -50px 0px;
+          width: 49px;
+          height: 50px;
+        }
+
+        &-2 {
+          background-image: url("../img/icons.png");
+          background-position: 0px -96px;
+          width: 50px;
+          height: 42px;
+        }
+
+        &-3 {
+          background-image: url("../img/icons.png");
+          background-position: -184px 0px;
+          width: 28px;
+          height: 50px;
+        }
+
+        &-4 {
+          background-image: url("../img/icons.png");
+          background-position: 0px 0px;
+          width: 50px;
+          height: 50px;
+        }
+
+        &-5 {
+          background-image: url("../img/icons.png");
+          background-position: -143px 0px;
+          width: 41px;
+          height: 50px;
+        }
+
+        &-6 {
+          background-image: url("../img/icons.png");
+          background-position: 0px -50px;
+          width: 50px;
+          height: 46px;
+        }
+      }
+
+      &-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+      }
+
+      &-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.4rem;
+        opacity: 0.75;
+        margin-bottom: 35px;
+      }
+    }
+  }
+}

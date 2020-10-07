@@ -1,6 +1,7 @@
 .footer{
   position: relative;
-  background-image: url('../img/bg/bg-5.jpg');
+  background: url('../img/bg/bg-5.jpg') center center;
+  background-size: cover;
 
   &::before {
     content: '';

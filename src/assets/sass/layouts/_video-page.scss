@@ -1,6 +1,7 @@
 .video-page {
   position: relative;
-  background-image: url('../img/bg/bg-2.jpg');
+  background: url('../img/bg/bg-2.jpg') center center;
+  background-size: cover;
   padding: 200px 0;
 
   &::before {
