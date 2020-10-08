@@ -1,0 +1,44 @@
+.form-page {
+  padding: 65px 0;
+
+  .row {
+    margin: auto;
+  }
+
+  &__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: $title-color;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__form {
+    input, textarea {
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: $title-color;
+      border: 1px solid rgba($color: $overlay-color, $alpha: 0.5);
+      overflow: hidden;
+      
+      &::placeholder {
+        opacity: 0.5;        
+      }
+      
+      &:focus {
+        outline-color: $overlay-color;
+      }
+    }
+
+    &-button {
+      margin: auto;
+      display: block;
+    }
+  }
+}

@@ -2,6 +2,7 @@
   position: relative;
   background: url('../img/bg/bg-3.jpg') center center;
   background-size: cover;
+  padding: 65px 0;
 
   &::before {
     content: '';
@@ -12,5 +13,57 @@
     right: 0;
     background-color: $overlay-color;
     opacity: 0.85;
+  }
+
+  &-content {
+    position: relative;
+
+    &-top {
+      color: #fff;
+
+      &__title {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      
+      &__subtitle {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      &__line {
+        display: block;
+        height: 1px;
+        width: 50px;
+        background-color: #fff;
+        opacity: 0.2;
+        margin: auto;
+      }
+    }
+
+    &-people {
+      margin-bottom: 65px;
+    }
+
+    &-bottom {
+      &__text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+        color: #fff;
+        text-align: center;
+      }
+
+      &__button {
+        display: block;
+        margin: auto;
+      }
+    }
   }
 }

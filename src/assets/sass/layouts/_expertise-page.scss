@@ -10,6 +10,7 @@
       font-weight: 700;
       text-transform: uppercase;
       text-align: center;
+      color: $title-color;
     }
     
     &-subtitle {
@@ -98,6 +99,7 @@
         font-size: 1.4rem;
         text-transform: uppercase;
         margin-bottom: 25px;
+        color: $title-color;
       }
 
       &-text {

@@ -3,6 +3,7 @@
 @import './components/logo';
 @import './components/navigation';
 @import './components/button';
+@import './components/social';
 
 @import './layouts/header';
 @import './layouts/home-page';
@@ -10,16 +11,35 @@
 @import './layouts/video-page';
 @import './layouts/expertise-page';
 @import './layouts/team-page';
+@import './layouts/works-page';
 @import './layouts/feedback-page';
+@import './layouts/form-page';
 @import './layouts/footer';
 
 html {
   font-size: 10px;
+
+  ::-webkit-scrollbar {
+    background-color: #eee;
+  }
+    
+  ::-webkit-scrollbar-thumb {
+    background-color: $overlay-color;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #fff;
+  } 
 }
 
 ol, ul {
   margin: 0;
+  padding-left: 15px;
   list-style: none;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
 }
 
   // font-family: 'Hammersmith One', sans-serif;

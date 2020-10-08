@@ -1,0 +1,75 @@
+.social {
+  &-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    position: relative;
+    transition: 0.3s;
+    
+    &:hover {
+      border-color: $main-color;
+    }
+
+    &__facebook {
+      background-image: url('../img/icons.png');
+      background-position: -200px -50px;
+      width: 7px;
+      height: 15px;
+      position: absolute;
+      top: 8px;
+      left: 13px;
+    }
+    
+    &__twitter {
+      background-image: url('../img/icons.png');
+      background-position: -184px -106px;
+      width: 14px;
+      height: 11px;
+      position: absolute;
+      top: 11px;
+      left: 10px;
+    }
+
+    &__dribbble {
+      background-image: url('../img/icons.png');
+      background-position: -184px -50px;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+
+    &__instagram {
+      background-image: url('../img/icons.png');
+      background-position: -184px -66px;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: 9px;
+      left: 9px;
+    }
+
+    &__google {
+      background-image: url('../img/icons.png');
+      background-position: -184px -81px;
+      width: 15px;
+      height: 14px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    &__youtube {
+      background-image: url('../img/icons.png');
+      background-position: -184px -95px;
+      width: 17px;
+      height: 11px;
+      position: absolute;
+      top: 11px;
+      left: 8px;
+    }
+  }
+}

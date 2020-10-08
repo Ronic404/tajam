@@ -2,6 +2,7 @@
   position: relative;
   background: url('../img/bg/bg-5.jpg') center center;
   background-size: cover;
+  padding: 65px 0;
 
   &::before {
     content: '';
@@ -12,5 +13,109 @@
     right: 0;
     background-color: $overlay-color;
     opacity: 0.85;
+  }
+
+  .container {
+    position: relative;
+    color: #fff;
+  }
+
+  &-content {
+    margin-bottom: 60px;
+
+    &__left {
+      &-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        line-height: 1.85;
+        font-weight: 300;
+      }
+    }
+
+    &__middle {
+      &-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 1.7;
+        margin-bottom: 30px;
+      }
+
+      &-place {
+        margin-bottom: 15px;
+
+        &-text {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          font-size: 1.4rem;
+          line-height: 1.85;
+        }
+      }
+
+      &-phone {
+        &-number {
+          color: #fff;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          font-size: 1.4rem;
+          line-height: 1.85;
+
+          &:hover {
+            color: rgba($color: #fff, $alpha: 0.8);
+          }
+        }
+      }
+    }
+
+    &__right {
+      &-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 1.7;
+        margin-bottom: 30px;
+      }
+
+      &-subscribe {
+        &-input {
+          background-color: transparent;
+          padding: 10px 15px;
+          margin-bottom: 20px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 1.4rem;
+          font-weight: 300;
+          color: #fff;
+          border: 1px solid rgba($color: #fff, $alpha: 0.75);
+          overflow: hidden;
+          
+          &::placeholder {
+            color: #fff;
+            opacity: 0.75;        
+          }
+          
+          &:focus {
+            outline-color: $overlay-color;
+          }
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.85;
+
+    &__left {
+      text-transform: uppercase;
+
+      li {
+        margin-right: 30px;
+      }
+    }
+
+    &__right {
+      text-align: end;
+    }
   }
 }

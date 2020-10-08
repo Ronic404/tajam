@@ -1,0 +1,40 @@
+.works-page {
+  padding: 65px 0;
+
+  .row {
+    margin: 0;
+  }
+
+  &__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $title-color;
+  }
+
+  &__link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: $title-color;
+
+    &:hover {
+      color: rgba($color: $title-color, $alpha: 0.8);
+    }
+  }
+
+  &__examples {
+    margin: 65px 0;
+
+    &-item {
+      height: 200px;
+      outline: 1px solid burlywood;
+    }
+  }
+
+  &__button {
+    display: block;
+    margin: auto;
+  }
+}

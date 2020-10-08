@@ -67,12 +67,11 @@
       </div>
     </section>
     <section class="video-page">
-      <div class="video-page__content row justify-content-center">
+      <div class="video-page__content">
         <div class="video-page__content-play">
           <div class="video-page__content-play-icon"></div>
-          <!-- https://www.youtube.com/watch?v=KvUgaHTNit4 -->
+          <!-- // https://www.youtube.com/watch?v=KvUgaHTNit4 // -->
         </div>
-        <div class="w-100"></div>
         <p class="video-page__content-text">Watch our story</p>
       </div>
     </section>
@@ -118,94 +117,145 @@
       </div>
     </section>
     <section class="team-page">
-      <div>
-        <h3>Meet our amazine team</h3>
-        <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-        <span></span>
-      </div>
-      <div>4 humans</div>
-      <div>
-        <p>Become part of our dream team, let's join us!</p>
-        <button>We are hiring</button>
+      <div class="container team-page-content">
+        <div class="team-page-content-top">
+          <h3 class="team-page-content-top__title">Meet our amazine team</h3>
+          <p class="team-page-content-top__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+          <span class="team-page-content-top__line"></span>
+        </div>
+        <div class="team-page-content-people">4 humans</div>
+        <div class="team-page-content-bottom">
+          <p class="team-page-content-bottom__text">Become part of our dream team, let's join us!</p>
+          <button class="button team-page-content-bottom__button">We are hiring</button>
+        </div>
       </div>
     </section>
-    <section>
-      <div>
-        <h3>Our works</h3>
-        <p>See All Project in dribbble</p>
+    <section class="works-page">
+      <div class="container">
+        <div class="row justify-content-between">
+          <h3 class="works-page__title">Our works</h3>
+          <a href="https://dribbble.com/" target="_blank" class="works-page__link">See All Project in dribbble ></a>
+        </div>
       </div>
-      <div>Pictures</div>
-      <button>Load more</button>
+      <div class="works-page__examples">
+        <div class="row">
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+        </div>
+        <div class="row">
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+          <div class="col works-page__examples-item"></div>
+        </div>
+      </div>
+      <button class="button works-page__button">Load more</button>
     </section>
     <section class="feedback-page">
-      <span></span>
-      <p>
-        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
-        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis 
-        sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi 
-        accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris 
-        vitae erat consequat auctor eu in elit.
-      </p>
-      <div>
-        <h5>Jane Galadriel</h5>
-        <p>Ceo tengkurep</p>
-        <div>People</div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="feedback-page__title col-12">“</div>
+          <p class="feedback-page__text col-10">
+            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
+            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis 
+            sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi 
+            accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris 
+            vitae erat consequat auctor eu in elit.
+          </p>
+          <div class="feedback-page__persons col-12">
+            <h5 class="feedback-page__persons-name">Jane Galadriel</h5>
+            <p class="feedback-page__persons-position">Ceo tengkurep</p>
+            <div class="feedback-page__persons-photos">Photos</div>
+          </div>
+        </div>
       </div>
     </section>
-    <section>
-      <h3>Give us a good news</h3>
-      <form action="#" method="GET">
-        <input type="text" name="name" id="name" placeholder="Name">
-        <input type="email" name="email" id="email" placeholder="Email">
-        <input type="text" name="subject" id="subject" placeholder="Subject">
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <button type="submit">Submit</button>
-      </form>
+    <section class="form-page">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <h3 class="form-page__title">Give us a good news</h3>
+          <form class="form-page__form" action="#" method="GET">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="text" name="subject" id="subject" placeholder="Subject">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="button form-page__form-button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="footer">
-    <div>
-      <div>
-        <div>
-          <img src="" alt="">
-          <h1>tajam</h1>
+    <div class="container">
+      <div class="footer-content row justify-content-between">
+        <div class="footer-content__left col-4">
+          <div class="logo row">
+            <div class="logo__icon"></div>
+            <h1 class="logo__name">tajam</h1>
+          </div>
+          <p class="footer-content__left-text">l
+            orem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. 
+            Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit
+          </p>
         </div>
-        <p>l
-          orem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. 
-          Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit
-        </p>
-      </div>
-      <div>
-        <h6>Our studio</h6>
-        <div>
-          <img src="" alt="">
-          <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
-        </div>
-        <div>
-          <img src="" alt="">
-          <a href="tel:+622122243333">(+62) 21-2224 3333</a>
-        </div>
-      </div>
-      <div>
-        <h6>Stay in touch</h6>
-        <div>
-          <input type="text" name="subscribe" id="subscribe" placeholder="Subscribe our newsletter">
-          <button>
+        <div class="footer-content__middle col-4">
+          <h6 class="footer-content__middle-title">Our studio</h6>
+          <div class="footer-content__middle-place">
             <img src="" alt="">
-          </button>
+            <p class="footer-content__middle-place-text">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+          </div>
+          <div class="footer-content__middle-phone">
+            <img src="" alt="">
+            <a class="footer-content__middle-phone-number" href="tel:+622122243333">(+62) 21-2224 3333</a>
+          </div>
+        </div>
+        <div class="footer-content__right col-4">
+          <h6 class="footer-content__right-title">Stay in touch</h6>
+          <div class="footer-content__right-subscribe">
+            <input class="footer-content__right-subscribe-input" type="text" name="subscribe" id="subscribe" placeholder="Subscribe our newsletter">
+            <button class="button">
+              <img src="" alt="">
+            </button>
+          </div>
+          <div class="social row">
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+              <div class="social-icon__facebook"></div>
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="social-icon">
+              <div class="social-icon__twitter"></div>
+            </a>
+            <a href="https://dribbble.com/" target="_blank" class="social-icon">
+              <div class="social-icon__dribbble"></div>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+              <div class="social-icon__instagram"></div>
+            </a>
+            <a href="https://www.google.ru/" target="_blank" class="social-icon">
+              <div class="social-icon__google"></div>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="social-icon">
+              <div class="social-icon__youtube"></div>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <div>
-      <div>
-        <ul>
-          <li>Help</li>
-          <li>Terms & condition</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
-      <div>
-        <p>Copyright © 2015 - Tajem Creative</p>
+      <div class="footer-bottom row justify-content-between">
+        <div class="footer-bottom__left col">
+          <ul class="row">
+            <li>Help</li>
+            <li>Terms & condition</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div class="footer-bottom__right col">
+          <p>Copyright © 2015 - Tajem Creative</p>
+        </div>
       </div>
     </div>
   </footer>

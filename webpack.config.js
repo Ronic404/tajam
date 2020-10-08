@@ -10,11 +10,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
+      favicon: './src/assets/img/Big-logo.png',
     }),
   ],
   devtool: 'source-map',
   resolve: {
-    extensions: ['.wasm', '.mjs', '.js', '.json'],
+    extensions: ['.js'],
   },
   module: {
     rules: [
