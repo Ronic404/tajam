@@ -8,26 +8,43 @@
 </head>
 <body>
   <main>
-    <section class="home-page">
+    <section class="home-page" id="home-page">
       <div class="container">
         <header class="header">
-          <div class="row justify-content-between">
-            <div class="logo row">
+          <nav class="navbar navbar-expand-md">
+            <div class="logo navbar-brand d-flex">
               <div class="logo__icon"></div>
-              <h1 class="logo__name">tajam</h1>
+              <h1 class="logo__name align-self-center">tajam</h1>
             </div>
-            <nav class="header__menu row align-items-center">
-              <ul class="navigation row">
-                <li class="navigation__item">Home</li>
-                <li class="navigation__item">About</li>
-                <li class="navigation__item">Expertise</li>
-                <li class="navigation__item">Teams</li>
-                <li class="navigation__item">Works</li>
-                <li class="navigation__item">People say</li>
-                <li class="navigation__item">Contact</li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false">
+              <span class="burger"></span>
+            </button>
+            <div class="collapse navbar-collapse header__menu justify-content-end" id="menu">
+              <ul class="navbar-nav align-items-center navigation">
+                <li class="nav-item">
+                  <a href="#home-page" class="nav-link navigation__item">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about-page" class="nav-link navigation__item">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#expertise-page" class="nav-link navigation__item">Expertise</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#team-page" class="nav-link navigation__item">Teams</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#works-page" class="nav-link navigation__item">Works</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#feedback-page" class="nav-link navigation__item">People say</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#footer" class="nav-link navigation__item">Contact</a>
+                </li>
               </ul>
-            </nav>
-          </div>
+            </div>
+          </nav>
         </header>
         <div class="home-page__description row justify-content-center">
           <h2 class="home-page__description-title col">We Are Awesome Creative Agency</h2>
@@ -45,13 +62,13 @@
         </div>
       </div>
     </section>
-    <section class="about-page container">
-      <div class="row">
-        <div class="col-3 offset-1">
+    <section class="about-page container" id="about-page">
+      <div class="row m-auto">
+        <div class="col-md-3 offset-md-1 text-center mb-5">
           <img src=<%=require("./assets/img/Big-logo.png").default%> alt="Logo">
         </div>
-        <div class="col-7 offset-1">
-          <h3 class="about-page__title">Our story</h3>
+        <div class="col-md-7 offset-md-1">
+          <h3 class="about-page__title text-center">Our story</h3>
           <p class="about-page__text">
             This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
             Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis 
@@ -62,11 +79,11 @@
             mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora 
             torquent per conubia nostra, per inceptos himenaeos.
           </p>
-          <button class="button">Learn more</button>
+          <button class="button m-auto">Learn more</button>
         </div>
       </div>
     </section>
-    <section class="video-page">
+    <section class="video-page" id="video-page">
       <div class="video-page__content">
         <div class="video-page__content-play">
           <div class="video-page__content-play-icon"></div>
@@ -75,7 +92,7 @@
         <p class="video-page__content-text">Watch our story</p>
       </div>
     </section>
-    <section class="expertise-page container">
+    <!-- <section class="expertise-page container" id="expertise-page">
       <div class="expertise-page__top row justify-content-center">
         <h3 class="expertise-page__top-title col">Expertise</h3>
         <div class="w-100"></div>
@@ -115,8 +132,8 @@
           <p class="expertise-page__main-item-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
         </div>
       </div>
-    </section>
-    <section class="team-page">
+    </section> -->
+    <!-- <section class="team-page" id="team-page">
       <div class="container team-page-content">
         <div class="team-page-content-top">
           <h3 class="team-page-content-top__title">Meet our amazine team</h3>
@@ -129,8 +146,8 @@
           <button class="button team-page-content-bottom__button">We are hiring</button>
         </div>
       </div>
-    </section>
-    <section class="works-page">
+    </section> -->
+    <!-- <section class="works-page" id="works-page">
       <div class="container">
         <div class="row justify-content-between">
           <h3 class="works-page__title">Our works</h3>
@@ -156,8 +173,8 @@
         </div>
       </div>
       <button class="button works-page__button">Load more</button>
-    </section>
-    <section class="feedback-page">
+    </section> -->
+    <!-- <section class="feedback-page" id="feedback-page">
       <div class="container">
         <div class="row justify-content-center">
           <div class="feedback-page__title col-12">“</div>
@@ -175,8 +192,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="form-page">
+    </section> -->
+    <!-- <section class="form-page" id="form-page">
       <div class="row justify-content-center">
         <div class="col-6">
           <h3 class="form-page__title">Give us a good news</h3>
@@ -189,15 +206,15 @@
           </form>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
-  <footer class="footer">
+  <!-- <footer class="footer" id="footer">
     <div class="container">
       <div class="footer-content row justify-content-between">
         <div class="footer-content__left col-4">
-          <div class="logo row">
+          <div class="logo d-flex">
             <div class="logo__icon"></div>
-            <h1 class="logo__name">tajam</h1>
+            <h1 class="logo__name align-self-center">tajam</h1>
           </div>
           <p class="footer-content__left-text">l
             orem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. 
@@ -206,21 +223,23 @@
         </div>
         <div class="footer-content__middle col-4">
           <h6 class="footer-content__middle-title">Our studio</h6>
-          <div class="footer-content__middle-place">
-            <img src="" alt="">
-            <p class="footer-content__middle-place-text">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+
+          <div class="footer-content__middle-place row">
+            <div class="footer-content__middle-place-icon"></div>
+            <p class="footer-content__middle-place-text col-11">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
           </div>
-          <div class="footer-content__middle-phone">
-            <img src="" alt="">
-            <a class="footer-content__middle-phone-number" href="tel:+622122243333">(+62) 21-2224 3333</a>
+
+          <div class="footer-content__middle-phone row">
+            <div class="footer-content__middle-phone-icon"></div>
+            <a class="footer-content__middle-phone-number col-11" href="tel:+622122243333">(+62) 21-2224 3333</a>
           </div>
         </div>
         <div class="footer-content__right col-4">
           <h6 class="footer-content__right-title">Stay in touch</h6>
-          <div class="footer-content__right-subscribe">
+          <div class="footer-content__right-subscribe d-flex">
             <input class="footer-content__right-subscribe-input" type="text" name="subscribe" id="subscribe" placeholder="Subscribe our newsletter">
-            <button class="button">
-              <img src="" alt="">
+            <button class="button footer-content__right-subscribe-button offset-1">
+              <div class="footer-content__right-subscribe-button-icon"></div>
             </button>
           </div>
           <div class="social row">
@@ -258,6 +277,6 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
 </body>
 </html>

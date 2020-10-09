@@ -4,6 +4,7 @@
 @import './components/navigation';
 @import './components/button';
 @import './components/social';
+@import './components/burger';
 
 @import './layouts/header';
 @import './layouts/home-page';
@@ -16,8 +17,14 @@
 @import './layouts/form-page';
 @import './layouts/footer';
 
+  // font-family: 'Hammersmith One', sans-serif;
+  // font-family: 'Playfair Display', serif;
+  // font-family: 'Roboto', sans-serif;
+
 html {
   font-size: 10px;
+  line-height: 1;
+  scroll-behavior: smooth;
 
   ::-webkit-scrollbar {
     background-color: #eee;
@@ -41,7 +48,3 @@ a {
     text-decoration: none;
   }
 }
-
-  // font-family: 'Hammersmith One', sans-serif;
-  // font-family: 'Playfair Display', serif;
-  // font-family: 'Roboto', sans-serif;

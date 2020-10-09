@@ -6,11 +6,8 @@
     font-size: 1.3rem;
     text-transform: uppercase;
     color: #fff;
-    margin-left: 25px;
-
-    &:first-child {
-      margin-left: 0;
-    }
+    margin-left: 15px;
+    transition: 0.3s;
 
     &:hover {
       color: $main-color;

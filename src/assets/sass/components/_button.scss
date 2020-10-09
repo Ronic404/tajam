@@ -1,5 +1,6 @@
 .button {
   position: relative;
+  display: block;
   background-color: transparent;
   outline: none;
   border: 1px solid $main-color;
@@ -29,5 +30,9 @@
     &::before {
       left: 150%;
     }
+  }
+
+  &:focus {
+    outline: none;
   }
 }

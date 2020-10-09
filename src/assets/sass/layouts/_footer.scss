@@ -44,6 +44,14 @@
       &-place {
         margin-bottom: 15px;
 
+        &-icon {
+          background-image: url('../img/icons.png');
+          background-position: -209px -92px;
+          width: 14px;
+          height: 19px;
+          margin-top: 4px;
+        }
+
         &-text {
           font-family: 'Roboto', sans-serif;
           font-weight: 300;
@@ -53,6 +61,14 @@
       }
 
       &-phone {
+        &-icon {
+          background-image: url('../img/icons.png');
+          background-position: -209px -75px;
+          width: 17px;
+          height: 17px;
+          margin-top: 4px;
+        }
+
         &-number {
           color: #fff;
           font-family: 'Roboto', sans-serif;
@@ -77,10 +93,11 @@
       }
 
       &-subscribe {
+        margin-bottom: 20px;
+        
         &-input {
           background-color: transparent;
           padding: 10px 15px;
-          margin-bottom: 20px;
           font-family: 'Roboto', sans-serif;
           font-size: 1.4rem;
           font-weight: 300;
@@ -95,6 +112,18 @@
           
           &:focus {
             outline-color: $overlay-color;
+          }
+        }
+
+        &-button {
+          background-color: rgba($color: #fff, $alpha: 0.75);
+          border: none;
+
+          &-icon {
+            background-image: url('../img/icons.png');
+            background-position: -209px -50px;
+            width: 25px;
+            height: 25px;
           }
         }
       }

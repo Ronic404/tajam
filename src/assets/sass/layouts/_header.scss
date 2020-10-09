@@ -1,4 +1,11 @@
 .header {
   padding: 15px 10px;
   position: relative;
+
+  .navbar-toggler {
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
 }

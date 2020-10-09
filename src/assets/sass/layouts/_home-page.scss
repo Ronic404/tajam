@@ -1,6 +1,6 @@
 .home-page {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background: url('../img/bg/bg-1.jpg') center center;
   background-size: cover;
 
@@ -19,6 +19,12 @@
     position: relative;
     color: #fff;
     margin-top: 20%;
+    padding-bottom: 65px;
+    transition: 0.5s;
+
+    &_active {
+      margin-top: 0;
+    }
 
     &-title {
       font-family: 'Playfair Display', serif;
