@@ -42,12 +42,39 @@
         width: 50px;
         background-color: #fff;
         opacity: 0.2;
-        margin: auto;
+        margin: 0 auto 45px;
       }
     }
 
     &-people {
       margin-bottom: 65px;
+      color: white;
+
+      &__card {
+        border: 1px solid rgba($color: #fff, $alpha: 0.2);
+
+        &-photo {
+          height: 230px;
+          width: 100%;
+          margin-bottom: 15px;
+          object-fit: cover;
+        }
+
+        &-name {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 900;
+          font-size: 1.4rem;
+          margin-bottom: 5px;
+        }
+        
+        &-position {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          font-size: 1.3rem;
+          opacity: 0.7;
+          margin-bottom: 25px;
+        }
+      }
     }
 
     &-bottom {
