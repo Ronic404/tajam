@@ -51,4 +51,14 @@
       text-align: center;
     }
   }
+
+  &-modal {
+    &__title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: $title-color;
+    }
+  }
 }
