@@ -20,6 +20,10 @@
     color: #fff;
   }
 
+  .logo {
+    margin-bottom: 7px;
+  }
+
   &-content {
     margin-bottom: 60px;
 
@@ -37,13 +41,10 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
         font-size: 1.5rem;
-        line-height: 1.7;
-        margin-bottom: 30px;
+        line-height: 3.5;
       }
 
       &-place {
-        margin-bottom: 15px;
-
         &-icon {
           background-image: url('../img/icons.png');
           background-position: -209px -92px;
@@ -88,8 +89,7 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
         font-size: 1.5rem;
-        line-height: 1.7;
-        margin-bottom: 30px;
+        line-height: 3.5;
       }
 
       &-subscribe {
@@ -140,6 +140,11 @@
 
       li {
         margin-right: 30px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.8;
+        }
       }
     }
 
