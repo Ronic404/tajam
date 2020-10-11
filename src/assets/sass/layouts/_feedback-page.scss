@@ -58,7 +58,24 @@
     }
 
     &-photos {
-      
+      &-item {
+        &-icon {
+          cursor: pointer;
+          width: 45px;
+          height: 45px;
+          transition: 0.5s;
+
+          &:hover {
+            width: 75px;
+            height: 75px;
+          }
+
+          &_active {
+            width: 75px;
+            height: 75px;
+          }
+        }
+      }
     }
   }
 }

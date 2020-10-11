@@ -29,7 +29,22 @@
 
     &-item {
       height: 200px;
-      outline: 1px solid burlywood;
+
+      &:nth-child(4n) {
+        background-color: $examle-color-4;
+      }
+
+      &:nth-child(4n-1) {
+        background-color: $examle-color-3;
+      }
+
+      &:nth-child(4n-2) {
+        background-color: $examle-color-2;
+      }
+
+      &:nth-child(4n-3) {
+        background-color: $examle-color-1;
+      }
     }
   }
 
